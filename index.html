@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FURNITO</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+  <!-- 🔹 Navigation -->
+  <nav>
+    <ul>
+      <li><h1 class="f">Furnito</h1></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#partie1">Shop</a></li>
+      <li><a href="#partie2">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><i class="fa-regular fa-user"></i></li>
+      <li><i class="fa-solid fa-magnifying-glass"></i></li>
+      <li><i class="fa-regular fa-heart"></i></li>
+      <li><i class="fa-solid fa-cart-shopping"></i></li>
+    </ul>
+  </nav>
+
+  <!-- 🔹 Section principale -->
+  <div class="container" id="home">
+    <div class= "wrapper">
+         <i class="fa-solid fa-chevron-left"></i>
+        <div class="carousel">
+           <img src="./assets/s.png" alt="image" id="img">
+           <img src="./assets/l.png" alt="image" srcset="">
+           <img src="./assets/o.png" alt="image" srcset="">
+          
+        </div>
+         <i class="fa-solid fa-chevron-right"></i>
+    </div>
+  
+
+    <div class="text">
+      <h1 class="d">Discover our Collections</h1>
+      <h2>New arrivals</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+      <div class="btn">
+        <a href="#">Shop Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🔹 Partie 1 -->
+  <div class="partie1" id="partie1">
+    <h1>Browse the range</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+
+    <div class="card">
+      <div class="box">
+       <img src="./assets/1.png" alt="Living Room">
+        <h3>Living Room</h3>
+      </div>
+      <div class="box">
+        <img src="./assets/2.png" alt="Dining Room">
+        <h3>Dining Room</h3>
+      </div>
+      <div class="box">
+        <img src="./assets/3.png" alt="Bedroom">
+        <h3>Bedroom</h3>
+      </div>
+    </div>
+  </div>
+
+    <!-- 🔹 Partie 2 -->
+  <div class="partie2" id="partie2">
+    <div class="product">
+     <h1>Our Products</h1>
+
+      <div class="products">
+          <div class="item">
+            <i class="fa-solid fa-chair"></i>
+            <h3>Modern Chair</h3>
+            <p>$70.00</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-couch"></i>
+            <h3>Wooden Couch</h3>
+            <p>$50.00</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-bed"></i>
+            <h3>Arm bed</h3>
+            <p>$80.00</p>
+          </div>
+          <div class="item">
+            <i class="fa-solid fa-chair"></i>
+            <h3>Dining Table</h3>
+            <p>$150.00</p>
+          </div>
+
+          <div class="item">
+            <i class="fa-solid fa-couch"></i>
+            <h3>Wooden Chair</h3>
+            <p>$90.00</p>
+    </div>
+          <div class="item">
+            <i class="fa-solid fa-bed"></i>
+            <h3>King Bed</h3>
+            <p>$200.00</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="partie3" id="contact">
+    <h1>Contact Us</h1>
+    <form action="#">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" placeholder="First Name" required>
+
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" placeholder="Last Name" required>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" placeholder="Your Email" required>
+
+      <label for="country">Country</label>
+        <select id="country" required>
+        <option value="">Select Country</option>
+        <option value="usa">United States</option>
+        <option value="uk">United Kingdom</option>
+        <option value="canada">Canada</option>
+        <option value="australia">Australia</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2025 Furnito. All rights reserved.</p>
+    <p>gmail: dibwissem7@gmail.com</p>
+    <p>github: wiis-dib13</p>
+  </footer>
+
+ <script src="script.js" ></script>
+</body>
+</html>
